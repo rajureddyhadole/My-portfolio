@@ -4,11 +4,11 @@ import Footer from '../components/Footer'
 
 function About() {
   return (
-    <div>
+    <div className='h-[100vh]'>
       <Navbar/>
-      <div className='flex flex-col justify-center items-center p-4 bg-gray-200 h-[570px]'>
-        <h1 className='text-4xl font-semibold'>About Me</h1>
-        <p className='mt-8 w-[70%] text-gray-700'>Hi there! I'm Raju reddy, a recent graduate with a degree in Information Technology from St. Peters Engineering College. Eager to apply my academic knowledge and skills to a dynamic professional environment, I'm seeking opportunities to contribute to innovative projects and collaborate with talented teams.
+      <div className='flex flex-col items-center justify-center p-4 h-[80%] bg-gray-200'>
+        <h1 className='text-3xl font-semibold md:text-4xl'>About Me</h1>
+        <p className='mt-8 w-[70%] text-[0.9rem] md:text-[1rem] text-gray-700'>Hi there! I'm Raju reddy, a recent graduate with a degree in Information Technology from St. Peters Engineering College. Eager to apply my academic knowledge and skills to a dynamic professional environment, I'm seeking opportunities to contribute to innovative projects and collaborate with talented teams.
 
          I'm particularly interested in Web Development and have a passion for Front-end Development.
 
