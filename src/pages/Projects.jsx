@@ -24,7 +24,7 @@ function Projects() {
 
           <a href="https://expense-tracker-by-rajureddy.netlify.app/" target='_blank'>  
             <div className='relative text-center w-[200px] h-[300px]'>
-              <img className='w-full' src="/images/expense-tracker.png" alt="" />
+              <img className='w-full' src="src/assets/expense-tracker.png" alt="" />
               <div className='absolute bottom-0 flex items-center justify-center text-white bg-black opacity-80 left-1 right-1 top-44'>
                 Expense tracker using React js and Tailwind CSS
               </div>
@@ -33,7 +33,7 @@ function Projects() {
 
           <a href="https://todo-list-by-raju.netlify.app/" target='_blank'>
             <div className='relative text-center w-[200px] h-[300px]'>
-              <img className='w-full' src="/images/todoList.png" alt="" />
+              <img className='w-full' src="src/assets/todoList.png" alt="" />
               <div className='absolute bottom-0 flex items-center justify-center text-white bg-black opacity-80 left-1 right-1 top-44'>
                 Todo List using React js and Tailwind CSS
               </div>
@@ -42,7 +42,7 @@ function Projects() {
 
           <a href="https://color-picker-app-by-raju.netlify.app/" target='_blank'>  
             <div className='relative text-center w-[200px] h-[300px]'>
-              <img className='object-cover w-full' src="/images/color-picker-app.png" alt="" />
+              <img className='object-cover w-full' src="src/assets/color-picker-app.png" alt="" />
               <div className='absolute bottom-0 left-0 right-0 flex items-center justify-center text-white bg-black opacity-80 top-44'>
                 Color Picker app using React js
               </div>
@@ -51,7 +51,7 @@ function Projects() {
           
           <a href="https://image-gallery-by-raju.netlify.app/"  target='_blank'>  
             <div className='relative text-center w-[200px] h-[300px]'>
-              <img className='object-cover w-full' src="/images/pexels-maxandrey-1366630.jpg" alt="" />
+              <img className='object-cover w-full' src="src/assets/pexels-maxandrey-1366630.jpg" alt="" />
               <div className='absolute bottom-0 left-0 right-0 flex items-center justify-center text-white bg-black opacity-80 top-44'>
                 Image Gallery using React js
               </div>
