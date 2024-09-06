@@ -6,7 +6,7 @@ function Navbar() {
   return (
     <div className='flex items-center justify-between px-4 py-4'>
       <div className='flex items-center space-x-2'>
-        <img src="src/assets/profile-pic (1).png" className='w-[50px] h-[50px] rounded-full' alt="profile pic" />
+        <img src="/src/assets/profile-pic (1).png" className='w-[50px] h-[50px] rounded-full' alt="profile pic" />
         <p className='font-semibold'>HADOLE RAJU</p>
       </div>
 
