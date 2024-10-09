@@ -29,18 +29,18 @@ function Contact() {
     }
   };
 
-  
+
   return (
     <div>
-      <Navbar/>
-      <form onSubmit={onSubmit} className='flex flex-col h-[570px] items-center justify-center gap-8 p-4 bg-gray-200'>
+      <Navbar />
+      <form onSubmit={onSubmit} className='flex flex-col h-[570px] items-center justify-center gap-8 p-4'>
         <h1 className='text-3xl font-semibold'>Contact</h1>
         <input className='h-8 px-2 rounded w-[400px]' type="text" name='name' placeholder='Name...' />
-        <input className='h-8 px-2 rounded w-[400px]' type="email" name='email' placeholder='Email...'/>
+        <input className='h-8 px-2 rounded w-[400px]' type="email" name='email' placeholder='Email...' />
         <textarea rows='8' className='px-2 rounded w-[400px]' name='message' placeholder='Feedback...'></textarea>
         <button className='px-8 py-2 bg-yellow-400 rounded hover:bg-yellow-500 active:bg-yellow-400' type='submit'>Submit</button>
       </form>
-      <Footer/>
+      <Footer />
     </div>
   )
 }
