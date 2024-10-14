@@ -1,5 +1,4 @@
 import React from 'react'
-import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
 function Contact() {
@@ -32,7 +31,6 @@ function Contact() {
 
   return (
     <div>
-      <Navbar />
       <form onSubmit={onSubmit} className='flex flex-col h-[570px] items-center justify-center gap-8 p-4'>
         <h1 className='text-3xl font-semibold'>Contact</h1>
         <input className='h-8 px-2 rounded w-[400px]' type="text" name='name' placeholder='Name...' />

@@ -1,11 +1,9 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 
 function Projects() {
   return (
     <div className=''>
-      <Navbar />
       <div className='flex flex-col items-center justify-center'>
         <div className='flex flex-col items-center p-4'>
           <h1 className='mb-4 text-2xl font-semibold md:text-3xl'>Skills</h1>
