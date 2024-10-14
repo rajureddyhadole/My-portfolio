@@ -7,10 +7,10 @@ function Navbar() {
 
   return (
     <>
-      <div className='sticky top-0 z-10 flex items-center justify-between p-3 border-b text-neutral-400 backdrop-blur-xl border-b-neutral-800 lg:px-8 sm:px-4'>
+      <div className='sticky top-0 z-10 flex items-center justify-between px-6 py-4 border-b text-neutral-400 backdrop-blur-xl lg:px-12 border-b-neutral-800'>
         <div className='flex items-center space-x-4'>
-          <img src="/src/assets/profile-pic (1).png" className='w-[40px] h-[40px] rounded-full border-gray-300 border-2' alt="profile pic" />
-          <p className='font-semibold'>HADOLE RAJU</p>
+          {/* <img src="/src/assets/profile-pic (1).png" className='w-[40px] h-[40px] rounded-full border-gray-300 border-2' alt="profile pic" /> */}
+          <Link to='/' className='text-lg font-semibold hover:text-slate-100 text-neutral-400'>HADOLE RAJU</Link>
         </div>
 
         <button className='sm:hidden' onClick={() => setIsMenuOpen(!isMenuOpen)}>
