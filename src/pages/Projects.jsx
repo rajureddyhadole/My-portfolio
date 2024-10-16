@@ -10,10 +10,10 @@ import ProjectCard from '../components/ProjectCard';
 
 function Projects() {
   return (
-    <div className=''>
-      <div className='flex flex-col justify-center'>
-        <div className='flex flex-col items-center p-4'>
-          <h1 className='mt-10 mb-8 text-4xl font-semibold text-neutral-300 md:text-5xl'>Skills</h1>
+    <div className='mb-8'>
+      <div className='flex flex-col justify-center gap-12 mt-10'>
+        <div className='flex flex-col items-center gap-8'>
+          <h1 className='text-4xl font-semibold text-neutral-300 md:text-5xl'>Skills</h1>
 
           <ul className='grid grid-cols-2 gap-6 md:grid-cols-3'>
             <li className='flex items-center gap-4 text-lg font-medium hover:text-slate-100 text-neutral-300'><FaHtml5 className='text-3xl' /> HTML</li>
@@ -24,9 +24,9 @@ function Projects() {
           </ul>
         </div>
 
-        <div className='flex flex-col items-center justify-center gap-4 pt-8 pb-8'>
+        <div className='flex flex-col items-center justify-center gap-8'>
           <h1 className='text-4xl font-semibold text-neutral-300 md:text-5xl'>Projects</h1>
-          <div className='flex'>
+          <div className='grid gap-4 mx-10 md:grid-cols-2'>
             {projectCardInfo.map((item, index) => (
               <ProjectCard key={index} cardInfo={item} />
             ))}
