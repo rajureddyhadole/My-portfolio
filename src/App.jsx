@@ -10,7 +10,7 @@ import Footer from './components/Footer';
 function App() {
 
   return (
-    <div>
+    <div className='w-full'>
       <Router>
         <Navbar />
         <Routes>

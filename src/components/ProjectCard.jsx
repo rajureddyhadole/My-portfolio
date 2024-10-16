@@ -5,7 +5,7 @@ const ProjectCard = ({ cardInfo }) => {
     <div className='overflow-hidden duration-300 border rounded shadow-md hover:scale-105 shadow-black'>
       <a href={cardInfo.href} target='_blank'>
         <div className='relative'>
-          <img width="400" className='object-cover' src={cardInfo.imgSrc} alt="" />
+          <img width="400" height="300" className='object-cover' src={cardInfo.imgSrc} alt="" />
           <div className='flex justify-center font-medium text-neutral-300'>
             {cardInfo.title}
           </div>

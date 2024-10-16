@@ -10,7 +10,7 @@ import projectCardInfo from '../constants';
 
 function Projects() {
   return (
-    <div className='mb-8'>
+    <div className='w-full mb-8'>
       <div className='flex flex-col justify-center gap-12 mt-10'>
         <div className='flex flex-col items-center gap-8'>
           <h1 className='text-4xl font-semibold text-neutral-300 md:text-5xl'>Skills</h1>

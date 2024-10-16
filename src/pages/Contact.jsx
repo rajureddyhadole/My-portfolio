@@ -30,7 +30,7 @@ function Contact() {
 
 
   return (
-    <div className='flex flex-col justify-between h-[90vh]'>
+    <div className='flex w-full flex-col justify-between h-[90vh]'>
       <form onSubmit={onSubmit} className='flex flex-col items-center justify-center gap-8 p-4 mt-10'>
         <h1 className='text-4xl font-semibold text-neutral-300'>Contact</h1>
         <input className='h-10 px-2 text-neutral-300 bg-[#262626] rounded-lg w-[400px] md:w-[600px]' type="text" name='name' placeholder='Name...' />

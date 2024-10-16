@@ -7,7 +7,7 @@ function Navbar() {
 
   return (
     <>
-      <div className='sticky top-0 z-10 flex items-center justify-between px-6 py-4 border-b text-neutral-400 backdrop-blur-xl lg:px-12 border-b-neutral-800'>
+      <div className='sticky top-0 z-10 flex items-center justify-between w-full px-6 py-4 border-b text-neutral-400 backdrop-blur-xl lg:px-12 border-b-neutral-800'>
         <div className='flex items-center space-x-4'>
           <Link to='/' className='text-lg font-semibold hover:text-slate-100 text-neutral-400'>HADOLE RAJU</Link>
         </div>

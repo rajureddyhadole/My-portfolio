@@ -1,7 +1,7 @@
-import imageGallery from "../assets/image-gallery.png";
-import expenseTracker from "../assets/Expense-tracker.png";
-import virtualR from "../assets/virtualR-clone.png"
-import todoList from "../assets/todolist.png"
+import imageGallery from "../assets/image-gallery.webp";
+import expenseTracker from "../assets/Expense-tracker.webp";
+import virtualR from "../assets/virtualR-clone.webp"
+import todoList from "../assets/todolist.webp"
 
 const projectCardInfo = [
   {
