@@ -30,13 +30,13 @@ function Contact() {
 
 
   return (
-    <div>
+    <div className='flex flex-col justify-between h-[90vh]'>
       <form onSubmit={onSubmit} className='flex flex-col items-center justify-center gap-8 p-4 mt-10'>
         <h1 className='text-4xl font-semibold text-neutral-300'>Contact</h1>
-        <input className='h-10 px-2 text-neutral-300 bg-[#262626] rounded-md w-[400px] md:w-[600px]' type="text" name='name' placeholder='Name...' />
-        <input className='h-10 px-2 rounded bg-[#262626] w-[400px] md:w-[600px] text-neutral-300' type="email" name='email' placeholder='Email...' />
-        <textarea rows='8' className='px-2 rounded bg-[#262626] text-neutral-300 w-[400px] md:w-[600px]' name='message' placeholder='Feedback...'></textarea>
-        <button className='px-8 py-2 bg-yellow-400 rounded hover:bg-yellow-500 active:bg-yellow-400' type='submit'>Submit</button>
+        <input className='h-10 px-2 text-neutral-300 bg-[#262626] rounded-lg w-[400px] md:w-[600px]' type="text" name='name' placeholder='Name...' />
+        <input className='h-10 px-2 rounded-lg bg-[#262626] w-[400px] md:w-[600px] text-neutral-300' type="email" name='email' placeholder='Email...' />
+        <textarea rows='8' className='px-2 rounded-lg bg-[#262626] text-neutral-300 w-[400px] md:w-[600px] mb-8' name='message' placeholder='Feedback...'></textarea>
+        <button className='px-12 py-2 text-lg font-semibold rounded-full bg-gradient-to-r from-orange-600 to-orange-800 text-neutral-900' type='submit'>Submit</button>
       </form>
       <Footer />
     </div>
