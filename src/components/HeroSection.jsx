@@ -8,11 +8,11 @@ function HeroSection() {
     <div className='flex w-full items-center justify-center h-[79vh]'>
       <div className='flex flex-col items-center justify-center w-[90%] sm:w-[70%]'>
         <img width="200" height="200" className='mb-10 rounded-full shadow-lg shadow-black/85' src={profilePic} alt="profile-pic" />
-        <h1 className='mb-10 text-4xl font-bold text-neutral-300 md:text-5xl'>
-          Hii,
+        <h1 className='mb-10 text-3xl font-bold sm:text-4xl text-neutral-300 md:text-5xl'>
+          Hii,I'm
           <span className='text-transparent bg-clip-text bg-gradient-to-r from-orange-600 to-orange-800'>
             <Typewriter
-              words={["I'M HADOLE RAJU", "I'M A DEVELOPER"]}
+              words={[" Hadole Raju", " A Developer"]}
               loop={3}
               typeSpeed={100}
               deleteSpeed={100}
