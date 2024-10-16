@@ -5,8 +5,8 @@ import { FaHtml5 } from "react-icons/fa";
 import { FaCss3 } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 import { RiTailwindCssFill } from "react-icons/ri";
-import projectCardInfo from '../assets/constants';
 import ProjectCard from '../components/ProjectCard';
+import projectCardInfo from '../constants';
 
 function Projects() {
   return (
